@@ -1,0 +1,3 @@
+C:\Users\s.trofimov\source\repos\lab18\lab18\Debug\lab18.vcxprojAssemblyReference.cache
+C:\Users\s.trofimov\source\repos\lab18\lab18\Debug\lab18.MyForm.resources
+C:\Users\s.trofimov\source\repos\lab18\lab18\Debug\lab18.vcxproj.GenerateResource.cache

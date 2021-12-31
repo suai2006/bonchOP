@@ -1,0 +1,9 @@
+C:\Users\s.trofimov\source\repos\LabMain\LabMain\Debug\LabMain.vcxprojAssemblyReference.cache
+C:\Users\s.trofimov\source\repos\LabMain\LabMain\Debug\LabMain.MainForm.resources
+C:\Users\s.trofimov\source\repos\LabMain\LabMain\Debug\LabMain.vcxproj.GenerateResource.cache
+C:\Users\s.trofimov\source\repos\LabMain\LabMain\Debug\LabMain.lab1.resources
+C:\Users\s.trofimov\source\repos\LabMain\LabMain\Debug\LabMain.lab2.resources
+C:\Users\s.trofimov\source\repos\LabMain\LabMain\Debug\LabMain.lab3.resources
+C:\Users\s.trofimov\source\repos\LabMain\LabMain\Debug\LabMain.MyUserControl.resources
+C:\Users\s.trofimov\source\repos\LabMain\LabMain\Debug\LabMain.lab4.resources
+C:\Users\s.trofimov\source\repos\LabMain\LabMain\Debug\LabMain.lab5.resources
