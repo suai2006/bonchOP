@@ -1,26 +1,24 @@
 #include "Purse.h"
-/*
+
 void Purse::showM()const {
-    for (vector<Ñurrency*>::const_iterator iter = p.begin(); iter != p.end(); iter++) {
-        (*iter)->show();
-        cout << endl;
-    }
+    
+    for (int i = 0; i < p.size(); i++) {
+        auto& item = p[i];
+        const double& x = moneybox[i];
+        item->show(x);
+    }    
 }
-*/
-void Purse::showM()const {
-    for_each(p.begin(), p.end(), mem_fn(&Ñurrency::show));
-}
+
 
 double Purse::sumPerRub() {
-    return accumulate(p.begin(), p.end(), 0.0, [](double x, Ñurrency* c) {
-        return x + c->toRub();
-    });
+    int i = 0;
+    double summ = 0;
+    for (auto& item : p) {
+        double& x = moneybox[i];
+        double& r = exchangeRate[i];
+        summ = summ + item->toRub(x, r);
+        i++;
+    }
+    return summ;
 }
-
-void Purse::addMoney()
-{
-    //&p[1];
-}
-
-
 

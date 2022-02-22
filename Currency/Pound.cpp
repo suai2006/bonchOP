@@ -1,12 +1,8 @@
 #include "Pound.h"
-ostream& operator<<(ostream& os, const Pound& y) {
-    os << fixed << setprecision(2) << "POUND: " << static_cast<int>(y.money) << " pence: " << (y.money - (int)y.money) * 100 << endl;
-    return os;
+
+double Pound::toRub(double x, double r) {
+    return x * r;
 }
-double Pound::toRub() {
-    return money * kurse;
+void Pound::show(double x)const {
+    cout << fixed << setprecision(2) << "POUND: " << static_cast<int>(x) << " pence: " << (x - (int)x) * 100 << endl;
 }
-void Pound::show()const {
-    cout << fixed << setprecision(2) << "POUND: " << static_cast<int>(money) << " pence: " << (money - (int)money) * 100 << endl;
-}
-double Pound::kurse = 63.81;
